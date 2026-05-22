@@ -1,0 +1,21 @@
+{
+  "search": {
+    "keyword": "QA",
+    "location": "Kathmandu",
+    "level": "Mid Level"
+  },
+  "login": {
+    "invalidUser": {
+      "email": "notarealuser12345@gmail.com",
+      "password": "WrongPassword!23"
+    },
+    "badFormatUser": {
+      "email": "invalid-email-format",
+      "password": "password123"
+    },
+    "emptyUser": {
+      "email": "",
+      "password": ""
+    }
+  }
+}

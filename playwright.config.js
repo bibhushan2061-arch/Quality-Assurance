@@ -27,7 +27,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-     baseURL: 'https://thinking-tester-contact-list.herokuapp.com/',
+     baseURL: 'https://merojob.com/',
      screenshot: "only-on-failure",
      video: "retain-on-failure",
 
