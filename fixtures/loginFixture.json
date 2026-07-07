@@ -1,10 +1,20 @@
 {
+  "login": {
     "validUser": {
-        "username": "sujal123@gmail.com",
-        "password": "sujal123"
+      "username": "QAproject_2026",
+      "password": "bibhushan0987"
     },
     "invalidUser": {
-        "username": "invaliduser",
-        "password": "invalidpassword"
+      "username": "thisuserdoesnotexist_xyz123",
+      "password": "wrongpassword123"
+    },
+    "emptyUser": {
+      "username": "",
+      "password": ""
+    },
+    "badFormatUser": {
+      "username": "notavalidemail@@##",
+      "password": "somepassword"
     }
+  }
 }
