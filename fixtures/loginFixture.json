@@ -1,11 +1,20 @@
 {
-  "validUser": {
-    "username": "QAproject_2026",
-    "password": "bibhushan09876"
-  },
-  "invalidUser": {
-    "username": "notarealuser99999",
-    "password": "wrongpassword"
+  "login": {
+    "validUser": {
+      "username": "QAproject_2026",
+      "password": "bibhushan0987"
+    },
+    "invalidUser": {
+      "username": "thisuserdoesnotexist_xyz123",
+      "password": "wrongpassword123"
+    },
+    "emptyUser": {
+      "username": "",
+      "password": ""
+    },
+    "badFormatUser": {
+      "username": "notavalidemail@@##",
+      "password": "somepassword"
+    }
   }
 }
-
